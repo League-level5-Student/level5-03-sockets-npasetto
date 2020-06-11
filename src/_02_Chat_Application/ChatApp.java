@@ -5,5 +5,9 @@ package _02_Chat_Application;
  */
 
 public class ChatApp {
-
+Client c=new Client();
+Server s=new Server();
+public static void main(String[] args) {
+	new Thread(new Client()).start();
+}
 }
