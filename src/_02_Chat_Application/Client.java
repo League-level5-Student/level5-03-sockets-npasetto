@@ -71,7 +71,8 @@ public void run() {
 		try {
 			
 			try {
-				output.setText((String) d2.readObject());
+				String textOutput=(String) d2.readObject();
+				output.setText(textOutput);
 			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

@@ -97,7 +97,6 @@ public class Server implements ActionListener,Runnable{
 		try {
 			d2.writeObject(input.getText());
 			input.setText("");
-			socket.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
